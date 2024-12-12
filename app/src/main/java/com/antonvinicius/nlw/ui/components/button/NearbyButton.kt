@@ -18,6 +18,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.antonvinicius.nlw.R
+import com.antonvinicius.nlw.ui.theme.GreenBase
 import com.antonvinicius.nlw.ui.theme.NearbyTheme
 import com.antonvinicius.nlw.ui.theme.Typography
 
@@ -33,7 +34,10 @@ fun NearbyButton(
         onClick = onClick,
         shape = RoundedCornerShape(16.dp),
         contentPadding = if (text == null && iconRes != null)
-            PaddingValues(0.dp) else ButtonDefaults.ContentPadding
+            PaddingValues(0.dp) else ButtonDefaults.ContentPadding,
+        colors = ButtonDefaults.buttonColors(
+            containerColor = GreenBase
+        )
     ) {
         Row(
             verticalAlignment = Alignment.CenterVertically,

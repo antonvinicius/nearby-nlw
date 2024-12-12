@@ -45,7 +45,7 @@ fun NearbyMarketDetailsRules(
 private fun MarketDetailsRulesPreview() {
     NearbyTheme {
         NearbyMarketDetailsRules(
-            rules = mockMarkets[0].rules
+            rules = emptyList()
         )
     }
 }

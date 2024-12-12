@@ -132,7 +132,7 @@ private fun NearbyMarketCardPreview() {
                 name = "Sabor Caseiro",
                 description = "Comida caseira e restaurante",
                 coupons = 10,
-                rules = emptyList(),
+//                rules = emptyList(),
                 latitude = -8.7677919,
                 longitude = -63.8925958,
                 address = "Rua Jacy Paraná, 2024 - Mato Grosso, Porto Velho - RO, 76804-418",
