@@ -1,4 +1,4 @@
-package com.antonvinicius.nlw.ui.screens
+package com.antonvinicius.nlw.ui.screens.welcome
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

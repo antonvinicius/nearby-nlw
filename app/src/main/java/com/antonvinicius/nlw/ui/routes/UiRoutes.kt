@@ -1,4 +1,4 @@
-package com.antonvinicius.nlw.ui.screens.routes
+package com.antonvinicius.nlw.ui.routes
 
 import kotlinx.serialization.Serializable
 
@@ -10,3 +10,6 @@ data object Welcome
 
 @Serializable
 data object Home
+
+@Serializable
+data object QrCodeScanner

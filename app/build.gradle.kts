@@ -52,6 +52,8 @@ android {
 }
 
 dependencies {
+    implementation(platform(libs.ktor.bom))
+    implementation(libs.bundles.ktor)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
@@ -63,8 +65,11 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.maps.compose)
     implementation(libs.coil.compose)
+    implementation(libs.coil.network.okhttp)
     implementation(libs.navigation.compose)
     implementation(libs.kotlin.serialization)
+    implementation(libs.zxing)
+    implementation(libs.zxing.android.embedded)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

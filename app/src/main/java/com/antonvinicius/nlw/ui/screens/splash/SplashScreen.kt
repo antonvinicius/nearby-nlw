@@ -1,4 +1,4 @@
-package com.antonvinicius.nlw.ui.screens
+package com.antonvinicius.nlw.ui.screens.splash
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
